@@ -100,7 +100,12 @@
 
         buy.addEventListener("click", () => {
             document.getElementById("main").style.display = "none";
-            document.getElementById("form").style.display = "block";
+            document.getElementById("form").style.display = "display";
+            document.getElementById("user_name").value = tg.initDataUndafe.user.first_name + " " + tg.initDataUndafe.user.last_name;
+        });
+
+        order.addEventListener("click", () => {
+            tg.close;
         })
     </script>
 </body>
